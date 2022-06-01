@@ -46,7 +46,7 @@ body {
 
 .container {
   width: var(--container-width-lg);
-  margin: 0 autoo;
+  margin: 0 auto;
 }
 
 h1,
