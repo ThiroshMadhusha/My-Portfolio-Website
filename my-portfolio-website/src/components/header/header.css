@@ -61,3 +61,21 @@ header {
     font-size: 0.9rem;
 }
 
+/* --- Media Query / Media Device */
+
+@media screen and (max-width: 1024px) {
+    header{
+        height: 100vh;
+    }
+  
+}
+
+@media screen and (max-width: 600px) {
+  header{
+      height: 100vh;
+  }
+  .header__socials,
+  .scroll__down{
+      display: none;
+  }
+}
