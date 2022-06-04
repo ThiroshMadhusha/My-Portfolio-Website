@@ -1,0 +1,11 @@
+header{
+    height: 100hv;
+    padding-top: 7erm;
+    overflow: hidden;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
