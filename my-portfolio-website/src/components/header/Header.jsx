@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import CAT from "./CAT";
-import ME from "../../assets/png1.png"
+import ME from "../../assets/png1.png";
 import HeaderSocial from "./HeaderSocial";
 
 const Header = () => {
