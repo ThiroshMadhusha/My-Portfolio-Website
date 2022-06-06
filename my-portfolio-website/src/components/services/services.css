@@ -37,9 +37,9 @@
     margin-bottom: 0.8rem;
 }
 .service__list-icon{
-    font-size: 3rem;
+    font-size: 4rem;
     color:var(--color-primary);
-    margin-top: 2px;
+    margin-top: 0.2rem;
 }
 
 .service__list p{
