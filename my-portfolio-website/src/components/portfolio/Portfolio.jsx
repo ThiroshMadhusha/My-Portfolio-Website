@@ -16,99 +16,119 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>Item Title</h3>
-          <a href="https://github.com" className="btn" target="_blank">
-            GitHub
-          </a>
-          <a
-            href="https://dribbble.com/Alien_pixels"
-            className="btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>Item Title</h3>
-          <a href="https://github.com" className="btn" target="_blank">
-            GitHub
-          </a>
-          <a
-            href="https://dribbble.com/Alien_pixels"
-            className="btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <h2>Online Electro Grid Management System</h2>
+          <h5>Java Maven Project</h5>
+          <div className="portfolio__item-cta">
+            {" "}
+            <a href="https://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://dribbble.com/Alien_pixels"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
+            <img src={IMG1} alt="" />
           </div>
-          <h3>Item Title</h3>
-          <a href="https://github.com" className="btn" target="_blank">
-            GitHub
-          </a>
-          <a
-            href="https://dribbble.com/Alien_pixels"
-            className="btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
+          <h2>Ice Cream Factory Management System</h2>
+          <h5>MERN Stack Project</h5>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://dribbble.com/Alien_pixels"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
           </div>
-          <h3>Item Title</h3>
-          <a href="https://github.com" className="btn" target="_blank">
-            GitHub
-          </a>
-          <a
-            href="https://dribbble.com/Alien_pixels"
-            className="btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>Item Title</h3>
-          <a href="https://github.com" className="btn" target="_blank">
-            GitHub
-          </a>
-          <a
-            href="https://dribbble.com/Alien_pixels"
-            className="btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <h2>Online Bus Ticket Management System</h2>
+          <h5>Java (OOP) Project</h5>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://dribbble.com/Alien_pixels"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+          <h2>Tea Factory Management System</h2>
+          <h5>Python Project</h5>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://dribbble.com/Alien_pixels"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG3} alt="" />
+          </div>
+          <h2>Online Aquarium Fish Selling App</h2>
+          <h5>Android Studio with Java Project</h5>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://dribbble.com/Alien_pixels"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>Item Title</h3>
-          <a href="https://github.com" className="btn" target="_blank">
-            GitHub
-          </a>
-          <a
-            href="https://dribbble.com/Alien_pixels"
-            className="btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <h2>Online Shopping Management System</h2>
+          <h5>HTML, CSS, JavaScript & PHP Project</h5>
+          <div className="portfolio__item-cta">
+            {" "}
+            <a href="https://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://dribbble.com/Alien_pixels"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
       </div>
     </section>
