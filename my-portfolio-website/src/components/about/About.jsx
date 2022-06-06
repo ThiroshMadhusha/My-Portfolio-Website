@@ -20,7 +20,23 @@ const About = () => {
           </div>
         </div>
         <div className="about__content">
-          
+          <div className="about__cards">
+            <article className="about__card">
+              <FaAward className="about__icon" />
+              <h5>Experience</h5>
+              <small>1+ Year Working</small>
+            </article>
+            <article className="about__card">
+              <FiUsers className="about__icon" />
+              <h5>Clients</h5>
+              <small>Work with Client</small>
+            </article>
+            <article className="about__card">
+              <FaAwAiOutlineProjectard className="about__icon" />
+              <h5>Projects</h5>
+              <small>6+ Completed Projects</small>
+            </article>
+          </div>
         </div>
       </div>
     </section>
