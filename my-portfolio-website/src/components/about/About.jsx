@@ -36,10 +36,9 @@ const About = () => {
               <small>6+ Completed Projects</small>
             </article>
           </div>
-          <br />
-          <p>
-            -Hello! I'm Thirosh Madhusha. I'm an 3rd Year Undergraduate
-            Student at Sri Lanka Institute of Information Technology (SLIIT).
+          <p className="about__content">
+            -Hello! I'm Thirosh Madhusha. I'm an 3rd Year Undergraduate Student
+            at Sri Lanka Institute of Information Technology (SLIIT).
             <br />
             -I'm Currently Working on my academic works and I'm Looking for an
             Internship to develop my future career path. <br />
@@ -48,7 +47,6 @@ const About = () => {
             Skill To Use Android Studio, Vscode, PhpStome, PyCharm, Vmware and
             Eclipse.
           </p>
-          <br />
           <a href="#contact" className="btn btn primary">
             Let's Talk
           </a>
