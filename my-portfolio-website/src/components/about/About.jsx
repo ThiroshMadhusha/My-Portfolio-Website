@@ -1,7 +1,7 @@
 // rafce command
 import React from "react";
 import "./about.css";
-import ME from "../../assets/png1.png";
+import ME from "../../assets/png2.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { AiOutlineProject } from "react-icons/ai";
