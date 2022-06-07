@@ -11,9 +11,9 @@ const Contact = () => {
       <h2>Contact Me</h2>
 
       <div className="container contact__container">
-        <div className="contact__option">
+        <div className="contact__options">
           <article className="contact__option">
-            <AiOutlineMail />
+            <AiOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>thiroshmadhusha0520@gmail.com</h5>
             <a href="mailto:thiroshmadhusha0520@gmail.com" target="_blank">
@@ -22,7 +22,7 @@ const Contact = () => {
           </article>
 
           <article className="contact__option">
-            <BsLinkedin />
+            <BsLinkedin className="contact__option-icon" />
             <h4>Linkedin</h4>
             <h5>Thirosh Madhusha</h5>
             <a
@@ -34,13 +34,14 @@ const Contact = () => {
           </article>
 
           <article className="contact__option">
-            <BsWhatsapp />
+            <BsWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
             <h5>+94 775338747</h5>
             <a href="https://wa.me/+94775338747" target="_blank">
               Send a Message
             </a>
           </article>
+          </div>
 
           {/* End of contact option */}
 
@@ -64,10 +65,11 @@ const Contact = () => {
               placeholder="Enter Your Message"
               required
             />
-            <button type="submit" className="btn btn-primary">Send Message</button>
+            <button type="submit" className="btn btn-primary">
+              Send Message
+            </button>
           </form>
         </div>
-      </div>
     </section>
   );
 };
