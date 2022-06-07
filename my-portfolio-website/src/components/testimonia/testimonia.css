@@ -1,6 +1,7 @@
 
 .container.testimonials__container{
     width: 40%;
+    padding-bottom: 4rem;
 }
 .client__avatar{
     width: 4rem;
@@ -23,4 +24,23 @@
     display: block;
     width: 80%;
     margin: 0.8rem auto 0;
+}
+
+/* --- Media Query / Media Device */
+
+@media screen and (max-width: 1024px) {
+    .container.testimonials__container{
+        width: 60%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+   
+    .container.testimonials__container{
+        width: var(--container-width-sm);
+    }  
+    .client__review{
+        width: var(--container-width-sm);
+    }
 }
