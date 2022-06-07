@@ -44,7 +44,28 @@ const Contact = () => {
 
           {/* End of contact option */}
 
-          <form action=""></form>
+          <form action="">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter Your Full Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Your Email"
+              required
+            />
+            <textarea
+              type="text"
+              name="message"
+              rows="7"
+              placeholder="Enter Your Message"
+              required
+            />
+            <button type="submit" className="btn btn-primary">Send Message</button>
+          </form>
         </div>
       </div>
     </section>
