@@ -49,3 +49,18 @@ textarea {
   resize: none;
   color: var(--color-white);
 }
+
+/* --- Media Query / Media Device */
+
+@media screen and (max-width: 1024px) {
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: var(--container-width-sm);
+  }
+}
