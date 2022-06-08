@@ -1,5 +1,6 @@
 {
   "name": "my-portfolio-website",
+  "homepage": "http://thiroshmadhusha.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

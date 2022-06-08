@@ -17,9 +17,9 @@ const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Looking for passionate, experienced front-end
-                developers to build exceptional mobile and desktop web
-                applications. Here's your chance to work with me.
+                Looking for passionate, experienced front-end developers to
+                build exceptional mobile and desktop web applications. Here's
+                your chance to work with me.
               </p>
             </li>
           </ui>
@@ -33,9 +33,9 @@ const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Looking for Web developers who have experience and
-                expertise to manage external/internal inter-system connectivity
-                in the organization. Here’s your chance to work with me.
+                Looking for Web developers who have experience and expertise to
+                manage external/internal inter-system connectivity in the
+                organization. Here’s your chance to work with me.
               </p>
             </li>
           </ui>
@@ -49,10 +49,10 @@ const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Looking for back-end developers who have experience
-                and expertise to manage external/internal inter-system
-                connectivity and drive excellence in the organization.Here's
-                your chance to work with me.
+                Looking for a back-end developers who have experience and
+                expertise to manage external/internal inter-system connectivity
+                and drive excellence in the organization. Here is your chance to
+                work with me.
               </p>
             </li>
           </ui>
@@ -68,10 +68,10 @@ const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Looking for remote full-stack developers who can
-                design compelling user interactions, build and deploy
-                comprehensive databases, responsiveness and scalability of
-                applications.Here’s your chance to work with me.
+                Looking for remote full-stack developers who can design
+                compelling user interactions, build & deploy comprehensive
+                databases, scalability & responsiveness of applications.Here’s
+                your chance to work with me.
               </p>
             </li>
           </ui>

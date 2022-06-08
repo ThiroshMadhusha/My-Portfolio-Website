@@ -7,16 +7,19 @@ import { BsTwitter } from "react-icons/bs";
 const HeaderSocial = () => {
   return (
     <div className="header__socials">
-      <a href="https://linkedin.com" target="_blank">
+      <a href="https://www.linkedin.com/in/thirosh-madhusha/" target="_blank">
         <BsLinkedin />
       </a>
-      <a href="https://github.com" target="_blank">
+      <a href="https://github.com/IT20146238" target="_blank">
         <FaGithub />
       </a>
-      <a href="https://stackoverflow.com" target="_blank">
+      <a
+        href="https://stackoverflow.com/users/16248685/thirosh-madhusha"
+        target="_blank"
+      >
         <BsStackOverflow />
       </a>
-      <a href="https://twitter.com" target="_blank">
+      <a href="https://twitter.com/ThiroshMadhusha" target="_blank">
         <BsTwitter />
       </a>
     </div>
