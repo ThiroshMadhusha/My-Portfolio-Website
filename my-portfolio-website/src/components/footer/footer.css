@@ -26,7 +26,7 @@ footer a{
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .footer__socials a{
     background: var(--color-bg);
@@ -44,4 +44,17 @@ footer a{
 .footer__copyright{
     margin-bottom: 4rem;
     color: var(--color-bg);
+}
+
+/* --- Media Query / Media Device */
+
+
+@media screen and (max-width: 600px) {
+    .permalinks{
+        flex-direction: column;
+        gap: 1.5rem;
+    } 
+    .footer__socials{
+        margin-bottom: 2rem;
+    }
 }
